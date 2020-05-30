@@ -2,13 +2,13 @@ import smtplib
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 
-s.login("anshulmishra654@gmail.com", "*************")
+s.login("gyaneshsharma4@gmail.com", "*************")
 
 
 #Message that will be sent to mail
-msg = "accuracy is less than 90%.Try again"
+msg = "accuracy is achieved"
      
-s.sendmail("anshulmishra654@gmail.com", "1706205@kiit.ac.in", msg)
+s.sendmail("gyaneshsharma4@gmail.com", "1706221@kiit.ac.in", msg)
     
 #For terminating 
 s.quit()
